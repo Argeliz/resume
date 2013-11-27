@@ -1,0 +1,106 @@
+/*--------------------------------*/
+/*----------- COLORES ------------*/
+/*--------------------------------*/
+
+/*
+INICIO = #19a9e5
+
+GALERIA = #fdfdfd
+
+CONTACTO = #f7c236
+
+GRIS = #4a4a4a
+*/
+
+/*FUENTES*/
+/*------------------------------------------------------------*/
+
+/*Knewave*/
+@import url(http://fonts.googleapis.com/css?family=Knewave);
+
+/*Roboto*/
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:700,400);
+
+.land {
+	font-family: 'Roboto Condensed', sans-serif;
+	width: 600px;
+	font-weight: 700;
+	margin: 0px auto;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+}
+
+#INICIO h1 {
+	font-weight: 700;
+}
+
+#INICIO h1, #INICIO h2 {
+	margin: 0px auto;
+	color: white;
+	text-align: center;
+	text-shadow: 0 2px 0 #4a4a4a;
+}
+
+.foto {
+	border: 2px solid #fff;
+	border-bottom: 4px solid #fff;
+	border-radius: 10px;
+	background-image: url('../images/foto.jpg');
+	height: 180px;
+	width: 157px;
+	margin: 0px auto;
+}
+
+.works {
+	height: 300px;
+	border: 2px solid black;
+} 
+
+.name {
+	font-family: 'Knewave', sans-serif;
+	font-weight: 100;
+}
+
+#nav-fixed {
+	background-color: #19a9e5;
+	height: 40px;
+	position: fixed;
+  	right: 0;
+  	left: 0;  	
+  	top: 0;
+  	z-index: 1030;
+}
+
+#INICIO {
+	background-color: #19a9e5;
+	height: 540px;
+	padding-top: 100px;
+}
+
+body {
+	background-color: #fdfdfd;
+}
+
+ #ABOUT {	
+	height: 630px;
+}
+
+#ABOUT h5 {
+	margin-bottom: 40px;
+	margin-top: 40px;
+	text-align: center
+}
+
+
+#GALERIA {
+	position: relative;
+	height: auto;
+	margin-bottom: 200px;
+}
+
+
+#CONTACTO {
+	background-color: #f7c236;
+	height: 620px;
+}
