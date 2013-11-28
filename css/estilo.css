@@ -3,11 +3,13 @@
 /*--------------------------------*/
 
 /*
-INICIO = #19a9e5
+AZUL = #19a9e5
 
 GALERIA = #fdfdfd
 
 CONTACTO = #f7c236
+
+NARANJA = #f25822
 
 GRIS = #4a4a4a
 */
@@ -20,6 +22,18 @@ GRIS = #4a4a4a
 
 /*Roboto*/
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:700,400);
+
+.figura {
+	margin-top: 60px;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	margin: 0px auto;
+	background: #19a9e5;
+	-webkit-transform: rotate(45deg);
+}
 
 .land {
 	font-family: 'Roboto Condensed', sans-serif;
@@ -39,7 +53,9 @@ GRIS = #4a4a4a
 	margin: 0px auto;
 	color: white;
 	text-align: center;
-	text-shadow: 0 2px 0 #4a4a4a;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 
 .foto {
@@ -60,6 +76,18 @@ GRIS = #4a4a4a
 .name {
 	font-family: 'Knewave', sans-serif;
 	font-weight: 100;
+	text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
 
 #nav-fixed {
@@ -84,6 +112,7 @@ body {
 
  #ABOUT {	
 	height: 630px;
+	margin-bottom: 250px;
 }
 
 #ABOUT h5 {
@@ -92,6 +121,32 @@ body {
 	text-align: center
 }
 
+.whitebox {
+	border-radius: 3px;
+	box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+.whitebox h3 {
+	background-color: #f25822;
+	padding-left: 15px;
+	color: #fff;
+}
+
+.centrar-texto {
+	padding: 10px 10px 10px 10px;
+}
+
+.separation {
+	margin-bottom: 45px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
 
 #GALERIA {
 	position: relative;

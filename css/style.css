@@ -263,13 +263,14 @@ h3,
 .h3 {
   font-size: 26px;
   font-size: 1.625rem;
-  margin-bottom: .5em;
+  /*margin-bottom: .5em;*/
 }
 h4,
 .h4 {
   font-size: 20px;
   font-size: 1.25rem;
   margin-bottom: .5em;
+  margin-top: .5em;
 }
 h5,
 .h5 {
@@ -399,8 +400,9 @@ table {
   table-layout: fixed;
   border-collapse: collapse;
   border-spacing: 0;
-  border-right: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  /*box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);*/
+  /*border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;*/
   word-wrap: break-word;
   -ms-word-wrap: break-word;
   *white-space: normal;
@@ -411,7 +413,7 @@ table td {
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #eee;
-  border-left: 1px solid #eee;
+  /*border-left: 1px solid #eee;*/
   text-align: center;
 }
 table thead th {
@@ -424,11 +426,10 @@ table tfoot td {
   font-weight: bold;
 }
 table caption {
-  /*padding: 0.5em;
-  font-style: italic;*/
-  background-color: #eee;
+  background-color: #f25822;
   border-bottom: 0;
   font-weight: bold;
+  text-align: left;
 }
 /* 1.5 Forms, Labels and Inputs
    ========================================================================== */
