@@ -1,4 +1,3 @@
-/*--------------------------------*/
 /*----------- COLORES ------------*/
 /*--------------------------------*/
 
@@ -23,6 +22,8 @@ GRIS = #4a4a4a
 /*Roboto*/
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:700,400);
 
+/*PRUEBA*/
+/*
 .figura {
 	margin-top: 60px;
 }
@@ -34,12 +35,13 @@ GRIS = #4a4a4a
 	background: #19a9e5;
 	-webkit-transform: rotate(45deg);
 }
+______________________________________*/
 
 .land {
 	font-family: 'Roboto Condensed', sans-serif;
 	width: 600px;
 	font-weight: 700;
-	margin: 0px auto;
+	margin: 0 auto;
 	font-size: 40px;
 	text-align: center;
 	color: white;
@@ -111,7 +113,7 @@ body {
 }
 
  #ABOUT {	
-	height: 630px;
+	height: 500px;
 	margin-bottom: 250px;
 }
 
@@ -150,12 +152,26 @@ body {
 
 #GALERIA {
 	position: relative;
-	height: auto;
+	height: 500px;
 	margin-bottom: 200px;
 }
 
+#GALERIA img {
+    border: 2px solid yellow;
+    border-radius:4px;
+}
 
 #CONTACTO {
 	background-color: #f7c236;
 	height: 620px;
+	padding-top: 100px;
+    color: #fff;
+}
+
+#CONTACTO ul { float: left; }
+
+footer {
+	background-color: #4a4a4a;
+	height: 50px;
+	width: 100%
 }
