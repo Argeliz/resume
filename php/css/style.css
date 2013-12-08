@@ -30,7 +30,8 @@ button,
 input,
 select,
 textarea {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  /*font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+  font-family: "Roboto Condensed", sans-serif;
 }
 body,
 form,
