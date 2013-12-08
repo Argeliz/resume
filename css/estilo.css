@@ -22,20 +22,6 @@ GRIS = #4a4a4a
 /*Roboto*/
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:700,400);
 
-/*PRUEBA*/
-/*
-.figura {
-	margin-top: 60px;
-}
-
-.square {
-	width: 100px;
-	height: 100px;
-	margin: 0px auto;
-	background: #19a9e5;
-	-webkit-transform: rotate(45deg);
-}
-______________________________________*/
 
 .land {
 	font-family: 'Roboto Condensed', sans-serif;
@@ -152,7 +138,7 @@ body {
 
 #GALERIA {
 	position: relative;
-	height: 500px;
+	min-height: 500px;
 	margin-bottom: 200px;
 }
 
@@ -165,13 +151,55 @@ body {
 	background-color: #f7c236;
 	height: 620px;
 	padding-top: 100px;
-    color: #fff;
+	color: white;
+	font-size: 15px;
 }
 
-#CONTACTO ul { float: left; }
+#CONTACTO ul { 
+	float: left;
+}
 
-footer {
+#CONTACTO h1 {
+	font-size: 60px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+}
+
+#CONTACTO hr {
+	height: 3px;
 	background-color: #4a4a4a;
-	height: 50px;
-	width: 100%
+	width: 93%;
 }
+
+#CONTACTO .container {
+	width: 750px;
+}
+
+#CONTACTO select { 
+	width: 100%;
+	border: none;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: #F7CB42;
+	color: #4a4a4a;
+	cursor:pointer;
+	font-weight: bold;
+}
+
+footer {	
+	height: 30px;
+	background-color: #4a4a4a;
+	color: white;
+	text-align: center;
+}
+
+::-webkit-input-placeholder {
+   color: #4a4a4a;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #4a4a4a;
+}
+

@@ -38,7 +38,7 @@
       <div class="container">
         <div class="foto"></div>
         <h1>Hola, soy <span class="name">Argeliz Jiménez</span></h2>
-          <h2>Desarrollador front-end y diseñador web</h2>
+          <h2>Desarrollador front-end e Ingeniero en desarrollo de software</h2>
           <div class="figura">
             <div class="square"></div>
           </div>
@@ -124,58 +124,59 @@
     <section id="GALERIA">
       <div class="container">
         <div class="section row row-one">
-          <div class="col four tablet-full mobile-full works">foto
+          <div class="col four tablet-full mobile-full works">
             <img src="http://placehold.it/300x300">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, saepe accusantium sed nostrum perspiciatis eos eum. Nisi ipsa enim alias totam placeat perferendis a consequuntur quasi. Aut, sint illo pariatur!
           </div>
-          <div class="col four mobile-full works">foto
+          <div class="col four mobile-full works">
             <img src="http://placehold.it/300x300">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, quia, dicta, voluptatibus eius ad fugit beatae nihil ipsam iusto accusamus ut autem quam culpa necessitatibus commodi quod deleniti. Distinctio, laborum!
           </div>
-          <div class="col four mobile-full works">foto
+          <div class="col four mobile-full works">
             <img src="http://placehold.it/300x300">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, dicta, animi, assumenda cupiditate architecto est totam placeat quis blanditiis recusandae impedit aperiam enim quae accusantium qui voluptas eligendi? Voluptatibus, asperiores.
           </div>
         </div>
       </div>
     </section> <!-- FIN - GALERIA -->
 
-    <section id="CONTACTO">
+   <section id="CONTACTO">
       <div class="container">
         <div class="section row row-one">
-          <div class="col seven tablet-full mobile-full">
-            <h1>¡Trabajemos juntos!</h1>
-            Estoy disponible para casi todo tipo de trabajo informático. Llena la forma siguiente para mandarme un mensaje.
-            <p>¡Tambié soy social! Sígueme en:</p>
+          <div class="col twelve">
+            <header><h1>¡Trabajemos juntos!</h1></header>
+          </div>
+        </div>
+        <div class="section row row-two">
+          <div class="col seven tablet-five mobile-full">
+            Estoy disponible para casi todo tipo de trabajo informático. Llena la siguiente forma para mandarme un mensaje.
+            <p>¡También soy social! Sígueme en:</p>
             <hr>
             <ul class="no-style-list">
                 <li title="Facebook"><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
                 <li title="Google+"><a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-                <li title="Twitter"><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
                 <li title="Instagram"><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
-                <li title="Pinterest"><a href="#"><i class="fa fa-pinterest-square fa-2x"></i></a></li>
-                <li title="Tumblr"><a href="#"><i class="fa fa-tumblr-square fa-2x"></i></a></li>
                 <li title="Github"><a href="#"><i class="fa fa-github-square fa-2x"></i></a></li>
             </ul>
           </div>
-          <div class="col five tablet-full mobile-full">
-            <h2>forma de contacto</h2>
+          <div class="col five tablet-five mobile-full">
             <form action="">
-                <input type="text" placeholder="Nombre"></input>
-                <input type="text" placeholder="Correo"></input>
+              <label for="nombre">¿Cuál es tu nombre?</label>
+                <input type="text" id="nombre" placeholder="Nombre"></input>
+                <label for="correo">¿Cuál es tu correo?</label>
+                <input type="email" id="correo" placeholder="Correo"></input>
+                <label for="asunto">Estás interesado en:</label>
                 <select name="asunto" id="asunto">
-                    <option default>Interesado en:</option>
                     <option value="">Ingeniería de Software</option>
                     <option value="">Analisis de requerimientos</option>
                     <option value="">Manejo de un proyecto</option>
-                    <option value="">Diseño Web</option>
+                    <option value="">Diseño y maquetado web</option>
                     <option value="">Aplicación web</option>
                     <option value="">Necesito ayuda</option>
                     <option value="">Tomar un café</option>
                     <option value="">Jugar una partida rápida de Mario Kart</option>
                     <option value="">Decir hola</option>
                 </select>
-                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe un mensaje"></textarea>
+                <label for="mensaje">Escribe lo que quieras decirme:</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <input type="submit" value="Enviar"></input>
             </form>
           </div>
         </div>
@@ -183,7 +184,7 @@
     </section> <!-- FIN - CONTACTO -->
 
     <footer>
-      <div class="container"><h6>2012 Argeliz Jiménez</h6></div>
+      <div class="container"><h6>2013 Argeliz Jiménez</h6></div>
     </footer>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/default.js"></script>
