@@ -146,6 +146,7 @@
         </div>
         <div class="section row row-two">
           <div class="col seven tablet-five mobile-full">
+            ESTE ES PHP
             Estoy disponible para casi todo tipo de trabajo informático. Llena la siguiente forma para mandarme un mensaje.
             <p>¡También soy social! Sígueme en:</p>
             <hr>

@@ -511,7 +511,11 @@ input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
-  *overflow: visible;
+  overflow: visible;
+  border: none;
+  background-color: white;
+  float: right;
+  margin-top: 10px;
 }
 button[disabled],
 html input[disabled] {

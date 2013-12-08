@@ -22,7 +22,6 @@ GRIS = #4a4a4a
 /*Roboto*/
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:700,400);
 
-
 .land {
 	/*font-family: 'Roboto Condensed';*/
 	width: 600px;
@@ -57,8 +56,14 @@ GRIS = #4a4a4a
 }
 
 .works {
-	height: 300px;
-	border: 2px solid black;
+	width: 300px;
+	height: 310px;
+	overflow: hidden;
+	border-radius: 3px;
+	box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+	padding: 3px 3px 3px 3px;
+	color: #4a4a4a;
+	text-align: justify;
 } 
 
 .name {
@@ -90,7 +95,7 @@ GRIS = #4a4a4a
 
 #INICIO {
 	background-color: #19a9e5;
-	height: 540px;
+	min-height: 590px;
 	padding-top: 100px;
 }
 
@@ -100,13 +105,13 @@ body {
 
  #ABOUT {	
 	height: 500px;
-	margin-bottom: 250px;
+	margin-bottom: 350px;
 }
 
-#ABOUT h5 {
-	margin-bottom: 40px;
-	margin-top: 40px;
-	text-align: center
+#ABOUT h4 {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 80px;
 }
 
 .whitebox {
@@ -128,31 +133,20 @@ body {
 	margin-bottom: 45px;
 }
 
-.left {
-	float: left;
-}
-
-.right {
-	float: right;
-}
-
 #GALERIA {
 	position: relative;
 	min-height: 500px;
 	margin-bottom: 200px;
-}
-
-#GALERIA img {
-    border: 2px solid yellow;
-    border-radius:4px;
+	padding-top: 150px;
 }
 
 #CONTACTO {
 	background-color: #f7c236;
-	height: 620px;
-	padding-top: 100px;
+	min-height: 620px;
+	padding-top: 40px;
 	color: white;
 	font-size: 15px;
+	padding-bottom: 20px;
 }
 
 #CONTACTO ul { 
@@ -169,11 +163,7 @@ body {
 #CONTACTO hr {
 	height: 3px;
 	background-color: #4a4a4a;
-	width: 93%;
-}
-
-#CONTACTO .container {
-	width: 750px;
+	width: 100%;
 }
 
 #CONTACTO select { 

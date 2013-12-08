@@ -24,43 +24,56 @@ $(document).ready(function(){
 
   // Other initiations go here within the document ready...
 
-  // ANIMAR ELEMENTOS DE NAVEGACIÓN AL PASAR POR LAS SECCIONES
-		$('section').waypoint(function(direction) {
-          var me = $(this); //added
-		  thisId = $(this).attr('id');
-		  $('ul li').each(function(){
-		    var secondaryID = $(this).attr('class');
-		    if  ( secondaryID == thisId )
-		        {
-		        	$('ul li').removeClass('active');
-                    
-                    //added
-                    if(direction==='up'){
-                        me = $(this).prev();
-                    }
-                    
-                    //added
-                    if(!me.length){
-                        me = $(this);
-                    }
-                    
-		            $(this).addClass('active');
-		        }
-			});
-	},{offset: '0'});	
-});	
-$('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-        || location.hostname == this.hostname) {
-
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-           if (target.length) {
-             $('html,body').animate({
-                 scrollTop: target.offset().top
-            }, 500);
-            return false;
-        }
-    }
+  // tumblr 
+document.getElementById('ji-tumblr-photo-widgy-1').setAttribute('src', tumblr_api_read.posts[0]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-1').setAttribute('href', tumblr_api_read.posts[0]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-2').setAttribute('src', tumblr_api_read.posts[1]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-2').setAttribute('href', tumblr_api_read.posts[1]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-3').setAttribute('src', tumblr_api_read.posts[2]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-3').setAttribute('href', tumblr_api_read.posts[2]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-4').setAttribute('src', tumblr_api_read.posts[3]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-4').setAttribute('href', tumblr_api_read.posts[3]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-5').setAttribute('src', tumblr_api_read.posts[4]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-5').setAttribute('href', tumblr_api_read.posts[4]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-6').setAttribute('src', tumblr_api_read.posts[5]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-6').setAttribute('href', tumblr_api_read.posts[5]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-7').setAttribute('src', tumblr_api_read.posts[6]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-7').setAttribute('href', tumblr_api_read.posts[6]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-8').setAttribute('src', tumblr_api_read.posts[7]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-8').setAttribute('href', tumblr_api_read.posts[7]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-9').setAttribute('src', tumblr_api_read.posts[8]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-9').setAttribute('href', tumblr_api_read.posts[8]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-10').setAttribute('src', tumblr_api_read.posts[9]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-10').setAttribute('href', tumblr_api_read.posts[9]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-11').setAttribute('src', tumblr_api_read.posts[10]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-11').setAttribute('href', tumblr_api_read.posts[10]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-12').setAttribute('src', tumblr_api_read.posts[11]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-12').setAttribute('href', tumblr_api_read.posts[11]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-13').setAttribute('src', tumblr_api_read.posts[12]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-13').setAttribute('href', tumblr_api_read.posts[12]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-14').setAttribute('src', tumblr_api_read.posts[13]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-14').setAttribute('href', tumblr_api_read.posts[13]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-15').setAttribute('src', tumblr_api_read.posts[14]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-15').setAttribute('href', tumblr_api_read.posts[14]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-16').setAttribute('src', tumblr_api_read.posts[15]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-16').setAttribute('href', tumblr_api_read.posts[15]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-17').setAttribute('src', tumblr_api_read.posts[16]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-17').setAttribute('href', tumblr_api_read.posts[16]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-18').setAttribute('src', tumblr_api_read.posts[17]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-18').setAttribute('href', tumblr_api_read.posts[17]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-19').setAttribute('src', tumblr_api_read.posts[18]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-19').setAttribute('href', tumblr_api_read.posts[18]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-20').setAttribute('src', tumblr_api_read.posts[19]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-20').setAttribute('href', tumblr_api_read.posts[19]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-21').setAttribute('src', tumblr_api_read.posts[20]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-21').setAttribute('href', tumblr_api_read.posts[20]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-22').setAttribute('src', tumblr_api_read.posts[21]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-22').setAttribute('href', tumblr_api_read.posts[21]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-23').setAttribute('src', tumblr_api_read.posts[22]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-23').setAttribute('href', tumblr_api_read.posts[22]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-24').setAttribute('src', tumblr_api_read.posts[23]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-24').setAttribute('href', tumblr_api_read.posts[23]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-widgy-25').setAttribute('src', tumblr_api_read.posts[24]['photo-url-400']);
+document.getElementById('ji-tumblr-url-widgy-25').setAttribute('href', tumblr_api_read.posts[24]['url-with-slug']);
 
 }); // end document ready
