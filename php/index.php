@@ -25,7 +25,7 @@
       <nav id="nav-fixed">
         <div class="container">
           <ul class="no-style-list">
-            <li><a href="#"><i title="Blog" class="fa fa-pencil-square-o fa-lg"></i></a></li>
+            <li><a href="blog.html"><i title="Blog" class="fa fa-pencil-square-o fa-lg"></i></a></li>
             <li><a href="#CONTACTO"><i title="Contacto" class="fa fa-envelope-o fa-lg"></i></a></li>
             <li><a href="#GALERIA"><i title="Galería" class="fa fa-picture-o fa-lg"></i></a></li>
             <li><a href="#ABOUT"><i title="Acerca de mí" class="fa fa-user fa-lg"></i></a></li>
@@ -38,7 +38,7 @@
       <div class="container">
         <div class="foto"></div>
         <h1>Hola, soy <span class="name">Argeliz Jiménez</span></h1>
-          <h2>Desarrollador front-end e Ingeniero en desarrollo de software</h2>
+          <h2>Ingeniero en desarrollo de software y desarrollador web</h2>
           <div class="figura">
             <div class="square"></div>
           </div>
@@ -48,7 +48,7 @@
     <section id="ABOUT">
       <div class="container">
         <div class="section row row-one">
-          <div class="col twelve mobile-full tablet-full"><h5>¡Baja para saber más de mí!</h5></div>
+          <div class="col twelve mobile-full tablet-full"><h4>¡Baja para saber más de mí!</h4></div>
         </div>
         <div class="section row row-two">
           <div class="col six mobile-full">
@@ -109,10 +109,10 @@
               <tr>
                 <td><i title="HTML5" class="fa fa-html5 fa-3x"></i></td>
                 <td><i title="CSS3" class="fa fa-css3 fa-3x"></i></td>
-                <td><h4 title="JavaScript">JS</h4></td>
-                <td><h4 title="ASP.NET">asp.net</h4></td>
-                <td><h4 title="Java">Java</h4></td>
-                <td><h4 title="PHP">PHP</h4></td>
+                <td><h5 title="JavaScript">JS</h5></td>
+                <td><h5 title="ASP.NET">asp.net</h5></td>
+                <td><h5 title="Java">Java</h5></td>
+                <td><h5 title="PHP">PHP</h5></td>
               </tr>
             </table>
             </div>
@@ -124,14 +124,17 @@
     <section id="GALERIA">
       <div class="container">
         <div class="section row row-one">
-          <div class="col four tablet-full mobile-full works">
-            <img src="http://placehold.it/300x300" alt="">
+          <div class="col four tablet-four mobile-full works">
+            <img src="images/galeria1.png" alt="">
+            <p>Un trabajo que realizé en secundaria para un proyecto en equipo.</p>
           </div>
-          <div class="col four mobile-full works">
-            <img src="http://placehold.it/300x300" alt="">
+          <div class="col four tablet-four mobile-full works">
+            <img src="images/galeria2.jpg" alt="">
+            <p>Tengo conocimiento de Photoshop y a veces, cuando me aburro, me dedico a hacer imagenes como esta.</p>
           </div>
-          <div class="col four mobile-full works">
-            <img src="http://placehold.it/300x300" alt="">
+          <div class="col four tablet-four mobile-full works">
+            <img src="images/galeria3.png" alt="">
+            <p>Esta página es mi primer sitio diseñado y codificado casi completamente por mí. Aprendí muchísimo desarrollandola.</p>
           </div>
         </div>
       </div>
@@ -146,7 +149,6 @@
         </div>
         <div class="section row row-two">
           <div class="col seven tablet-five mobile-full">
-            ESTE ES PHP
             Estoy disponible para casi todo tipo de trabajo informático. Llena la siguiente forma para mandarme un mensaje.
             <p>¡También soy social! Sígueme en:</p>
             <hr>
@@ -158,7 +160,7 @@
             </ul>
           </div>
           <div class="col five tablet-five mobile-full">
-            <form action="">
+            <form method="post" action="enviarMensaje.php">
               <label for="nombre">¿Cuál es tu nombre?</label>
                 <input type="text" id="nombre" placeholder="Nombre">
                 <label for="correo">¿Cuál es tu correo?</label>
@@ -185,7 +187,7 @@
     </section> <!-- FIN - CONTACTO -->
 
     <footer>
-      <div class="container"><h6>2013 Argeliz Jiménez</h6></div>
+      <div class="container"><h6>César Argeliz Contreras Jiménez, 2013.</h6></div>
     </footer>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/default.js"></script>
