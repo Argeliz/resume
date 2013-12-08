@@ -150,10 +150,10 @@
             <p>¡También soy social! Sígueme en:</p>
             <hr>
             <ul class="no-style-list">
-                <li title="Facebook"><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-                <li title="Google+"><a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-                <li title="Instagram"><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
-                <li title="Github"><a href="#"><i class="fa fa-github-square fa-2x"></i></a></li>
+                <li title="Facebook"><a href="https://www.facebook.com/cesarargeliz"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                <li title="Google+"><a href="https://plus.google.com/109871399043242431157/"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+                <li title="Instagram"><a href="http://instagram.com/argeliz"><i class="fa fa-instagram fa-2x"></i></a></li>
+                <li title="Github"><a href="https://github.com/Argeliz"><i class="fa fa-github-square fa-2x"></i></a></li>
             </ul>
           </div>
           <div class="col five tablet-five mobile-full">

@@ -24,7 +24,7 @@ GRIS = #4a4a4a
 
 
 .land {
-	font-family: 'Roboto Condensed';
+	/*font-family: 'Roboto Condensed';*/
 	width: 600px;
 	font-weight: 700;
 	margin: 0 auto;
@@ -63,7 +63,7 @@ GRIS = #4a4a4a
 
 .name {
 	font-family: 'Knewave';
-	font-weight: 100;
+	font-weight: 700;
 	text-shadow: 0 1px 0 #ccc, 
 	0 2px 0 #c9c9c9,
 	0 3px 0 #bbb,
