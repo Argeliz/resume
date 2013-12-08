@@ -1,6 +1,6 @@
 ## Argeliz Jiménez CV
 
-[Ver en vivo](https://resume-argeliz.rhcloud.com)
+[Ver en vivo](http://resume-argeliz.rhcloud.com)
 
 ### Herramientas usadas
 * [Fontawesome icons](https://fontawesome.io/icons/)
